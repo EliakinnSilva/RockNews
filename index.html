@@ -5,24 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>Contato - Rock News</title>
-    <link href="css/bootstrap.css" rel="stylesheet">
-    <link href="carousel.css" rel="stylesheet">
-    <script type="text/javascript" src="http://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=VO6jnGGItp12xdD5yiyzglEtsLrMlOJaNdmQ1f68DKPJosL-A44rOGjqeQ6Cf6Rr9VlGxOSjc_DYIDH18fheCA" charset="UTF-8"></script><script src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iU--LV7FjtiJIMF72jupIf5TeE_fR7iJD-qfTYN8GSz19wwyQkzzFNDu1pWaOhXw-nBNfpKQejK5SEiLR9Iyfit3yr_rBwxxUiWdwY_x7rs" charset="UTF-8"></script>
-    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9nZXRib290c3RyYXAuY29tLmJyL2RvY3MvNC4xL2V4YW1wbGVzL2Nhcm91c2VsLw"/>
     <link rel="icon" href="img/favicon.ico">
+
+    <title>Notícias de Bandas de Rock</title>
+
+    <!-- Principal CSS do Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+    <!-- Estilos customizados para esse template -->
+    <link href="carousel.css" rel="stylesheet">
+    <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iU--LV7FjtiJIMF72jupIf5TeE_fR7iJD-qfTYN8GSz19wwyQkzzFNDu1pWaOhXw-nBNfpKQejK5SEiLR9Iyfit3yr_rBwxxUiWdwY_x7rs" charset="UTF-8">
+    </script>
+    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9nZXRib290c3RyYXAuY29tLmJyL2RvY3MvNC4xL2V4YW1wbGVzL2Nhcm91c2VsLw"/>
   </head>
 
   <body>
 
     <header>
       <!--Botão de menu-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <nav  class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="index.html"></a>
         <a class="navbar-brand" href="index.html"> <img src="img/favicon-32x32.png" alt="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
+       
         <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
@@ -32,14 +39,14 @@
               <a class="nav-link" href="bandas.html">Bandas</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="noticias.html " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Noticias
+              <a class="nav-link dropdown-toggle" href="noticias.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Notícias
               </a>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
+                <a class="dropdown-item" href="noticias.html">Banda X lança novo álbum</a>
+                <a class="dropdown-item" href="sobre.html">Entrevista exclusiva com a Banda Y</a>
                 <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
+                <a class="dropdown-item" href="noticias.html">Novo vídeo da Banda Z</a>
               </div>
             </li>
             <li class="nav-item">
@@ -48,6 +55,7 @@
             <li class="nav-item">
               <a class="nav-link " href="sobre.html">Sobre</a>
             </li>
+            
           </ul>
           <form class="form-inline my-2 my-lg-0">
             <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
@@ -59,95 +67,149 @@
 
     <main role="main">
 
-      <div class="container mt-5">
-        <h1 class="text-center mb-4">Entre em Contato</h1>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
+      <main role="main">
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img class="first-slide" src="img/avesangria.png" alt="Ave Sangria" width="100%">
+              <div class="container">
+                <div class="carousel-caption text-left">
+                  <h1>Ave Sangria Novo Álbum é um Sucesso</h1>
+                  <p>A banda Ave Sangria surpreende os fãs com o lançamento de seu mais recente álbum. Saiba mais sobre as músicas e o processo de gravação.</p>
+                  <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Leia mais</a></p>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="email">Endereço de Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Seu email">
+            </div>
+            <div class="carousel-item">
+              <img class="second-slide" src="img/devotos.png" alt="Devotos" width="100%">
+              <div class="container">
+                <div class="carousel-caption">
+                  <h1>Entrevista exclusiva com o grupo Devotos</h1>
+                  <p>Conheça os bastidores do grupo Devotos  ke com esta entrevista exclusiva. Eles compartilham suas experiências e planos futuros.</p>
+                  <p><a class="btn btn-lg btn-primary" href="noticias.html" role="button">Leia mais</a></p>
+                </div>
               </div>
-              <div class="form-group">
-                <label for="mensagem">Mensagem</label>
-                <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
+            </div>
+            <div class="carousel-item">
+              <img class="third-slide" src="img/fire head.jpg" alt="Fire Head" width="100%">
+              <div class="container">
+                <div class="carousel-caption text-right">
+                  <h1>Novo vídeo da banda FIre Head</h1>
+                  <p>A banda Fire Head de lançar seu mais recente vídeo musical. Assista agora e descubra a inspiração por trás da música.</p>
+                  <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/watch?v=LBI9gyzikco" role="button">Assista agora</a></p>
+                </div>
               </div>
-              <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-            </form>
+            </div>
           </div>
+          <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Voltar</span>
+          </a>
+          <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Avançar</span>
+          </a>
         </div>
-      </div>
+        <br>
+        <br>
 
+      <!-- Mensagens de marketing e outras featurezinhas
+      ================================================== -->
+      <!-- Envolve o resto da página em outro container, para centralizar todo o conteúdo. -->
+
+      <div class="container marketing">
+
+       <!-- Três colunas de texto, abaixo do carousel -->
+          <div class="row">
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="img/ferro_negro.png" alt="Ferro Negro" width="140" height="140">
+              <h2>Ferro Negro lança novo álbum</h2>
+              <p>A banda Ferro Negro surpreende os fãs com o lançamento de um novo álbum. Ouça agora e sinta a potência do heavy metal!</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Leia mais &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="img/martelodocaos.jpg"Martelo do Caos" width="140" height="140">
+              <h2>Martelo do Caos em turnê mundial</h2>
+              <p>A banda Martelo do Caos anuncia uma nova turnê que passará por várias cidades ao redor do mundo. Confira as datas e garanta seu ingresso!</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Leia mais &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+            <div class="col-lg-4">
+              <img class="rounded-circle" src="img/legiao_do_trovao.png"" alt="Legião do Trovão" width="140" height="140">
+              <h2>Legião do Trovão recebe prêmio de Melhor Performance</h2>
+              <p>A banda Legião do Trovão foi premiada pela sua impressionante performance ao vivo, recebendo o reconhecimento da crítica e dos fãs. Saiba mais sobre essa conquista!</p>
+              <p><a class="btn btn-secondary" href="#" role="button">Leia mais &raquo;</a></p>
+            </div><!-- /.col-lg-4 -->
+          </div><!-- /.row -->
+->
+      </div><!-- /.row -->
+
+        <!-- COMEÇAM AS MENCIONADAS FEATUREZINHAS xD -->
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Lendas do Rock: Tributo ao Passado. <span class="text-muted">Reviva os clássicos!</span></h2>
+                <p class="lead">A banda Lendas do Rock está preparando um tributo aos maiores sucessos do passado. Uma viagem no tempo que você não pode perder!</p>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="img/lendas_do_rock.jpeg" alt="Lendas do Rock">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7 order-md-2">
+                <h2 class="featurette-heading">Ecos do Vinil: Resgatando a Essência. <span class="text-muted">Um mergulho na era dourada!</span></h2>
+                <p class="lead">A banda Ecos do Vinil está resgatando a essência do rock clássico em um novo álbum. Prepare-se para uma experiência autêntica.</p>
+              </div>
+              <div class="col-md-5 order-md-1">
+                <img class="featurette-image img-fluid mx-auto" src="img/banda_echos.png" alt="Ecos do Vinil">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <div class="row featurette">
+              <div class="col-md-7">
+                <h2 class="featurette-heading">Legends Unplugged: Acústico Intimista. <span class="text-muted">Uma noite única e emocionante!</span></h2>
+                <p class="lead">A banda Legends Unplugged está preparando um show acústico intimista, prometendo uma noite repleta de emoção e clássicos do rock.</p>
+              </div>
+              <div class="col-md-5">
+                <img class="featurette-image img-fluid mx-auto" src="img/Legends-Unplugged-GLogo-800w.png" alt="Legends Unplugged">
+              </div>
+            </div>
+
+            <hr class="featurette-divider">
+
+            <!-- /FIM DAS FEATUREZINHAS *-* -->
+
+
+      </div><!-- /.container -->
+
+
+     
     </main>
 
-    <!-- Modal de Agradecimento -->
-    <div class="modal fade" id="modalAgradecimento" tabindex="-1" role="dialog" aria-labelledby="modalAgradecimentoLabel" aria-hidden="true">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title" id="modalAgradecimentoLabel">Agradecemos pelo seu contato!</h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            Em breve responderemos à sua mensagem.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.js"></script>
+    <!-- Principal JavaScript do Bootstrap
+    ================================================== -->
+    <!-- Foi colocado no final para a página carregar mais rápido -->
+    <script src="js/jquery-3.3.1.slim.min..js" ></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
     <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
-    <footer class="container">
+    <!-- Só faz o nossos placeholders de imagens funcionarem. Não precisar copiar a próxima linha! -->
+    
+    <!-- FOOTER -->
+     <footer class="container">
       <p class="float-right"><a href="#">Voltar ao topo</a></p>
       <p>&copy; Rock News, 2023 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
     </footer>
-  <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href and typeof rel != "string" or rel.length == 0 or rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage and not sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
-</body>
+  </body>
 </html>
