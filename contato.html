@@ -1,6 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
@@ -8,90 +9,107 @@
     <title>Contato - Rock News</title>
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="carousel.css" rel="stylesheet">
-    <script src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=iU--LV7FjtiJIMF72jupIf5TeE_fR7iJD-qfTYN8GSz19wwyQkzzFNDu1pWaOhXw-nBNfpKQejK5SEiLR9Iyfit3yr_rBwxxUiWdwY_x7rs" charset="UTF-8"></script>
-    <link rel="stylesheet" crossorigin="anonymous" href="https://gc.kis.v2.scr.kaspersky-labs.com/E3E8934C-235A-4B0E-825A-35A08381A191/abn/main.css?attr=aHR0cHM6Ly9nZXRib290c3RyYXAuY29tLmJyL2RvY3MvNC4xL2V4YW1wbGVzL2Nhcm91c2VsLw"/>
     <link rel="icon" href="img/favicon.ico">
-  </head>
+    <link rel="stylesheet" href="css/form.css">
+</head>
 
-  <body>
+<body>
 
     <header>
-      <!--Botão de menu-->
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="index.html"></a>
-        <a class="navbar-brand" href="index.html"> <img src="img/favicon-32x32.png" alt="logo"></a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="bandas.html">Bandas</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="noticias.html " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                Noticias
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Ação</a>
-                <a class="dropdown-item" href="#">Outra ação</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Algo mais aqui</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="contato.html">Contato</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link " href="sobre.html">Sobre</a>
-            </li>
-          </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+            <a class="navbar-brand" href="index.html"></a>
+            <a class="navbar-brand" href="index.html"> <img src="img/favicon-32x32.png" alt="logo"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(página atual)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="bandas.html">Bandas</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="noticias.html " id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                            Noticias
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="#">Ação</a>
+                            <a class="dropdown-item" href="#">Outra ação</a>
+                            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item" href="#">Algo mais aqui</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="contato.html">Contato</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="sobre.html">Sobre</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
+                </form>
+            </div>
+        </nav>
     </header>
 
     <main role="main">
-
-      <div class="container mt-5">
-        <h1 class="text-center mb-4">Entre em Contato</h1>
-        <div class="row justify-content-center">
-          <div class="col-md-6">
-            <form>
-              <div class="form-group">
-                <label for="nome">Nome</label>
-                <input type="text" class="form-control" id="nome" placeholder="Seu nome">
-              </div>
-              <div class="form-group">
-                <label for="email">Endereço de Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Seu email">
-              </div>
-              <div class="form-group">
-                <label for="mensagem">Mensagem</label>
-                <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem"></textarea>
-              </div>
-              <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
-            </form>
-          </div>
+        <div class="container mt-5">
+               <br><br>  
+            <h1 class="text-center mb-4">Entre em Contato</h1>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <form id="formularioContato">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" id="nome" placeholder="Seu nome" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Endereço de Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone Celular (Brasil)</label>
+                            <input type="tel" class="form-control" id="telefone" placeholder="(99) 99999-9999" required pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}">
+                            <small id="telefoneHelp" class="form-text text-muted">Formato esperado: (99) 99999-9999</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea class="form-control" id="mensagem" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                    </form>
+                </div>
+            </div>
         </div>
-      </div>
-
     </main>
 
-    
+    <!-- Modal de Agradecimento -->
+    <div class="modal fade" id="modalAgradecimento" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Mensagem Enviada com Sucesso!</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Sua mensagem foi recebida, agradecemos o seu contato, retornaremos em breve!!!
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
-    <script src="js/jquery-3.3.1.slim.min.js"></script>
-    <script src="js/popper.js"></script>
-    <script>window.jQuery || document.write('<script src="js/jquery-slim.min.js"><\/script>')</script>
-    <footer class="container">
-      <p class="float-right"><a href="#">Voltar ao topo</a></p>
-      <p>&copy; Rock News, 2023 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
-    </footer>
-  </body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
 </html>
